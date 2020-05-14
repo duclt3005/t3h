@@ -1,0 +1,21 @@
+table{
+    margin: 0 auto;
+}
+table,td ,th, tr{
+    border: 1px solid rgb(170, 170, 170);
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+th,td{
+    padding: 7px 40px;
+    font-weight: bold;
+}
+th{
+    background-color: #00CCFF;
+    color: white;
+    padding: 10px 40px;
+}
+.italic{
+    font-style: italic;
+}

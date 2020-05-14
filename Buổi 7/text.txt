@@ -1,0 +1,3 @@
+- Từ ES5 trở xuống có thể khai báo k cần từ khoá var
+- Từ ES6 , thứ tự : const -> let -> var
+- 2 trạng thái Falsy/ Truthy ( được xem là sai/đúng )

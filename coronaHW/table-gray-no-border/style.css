@@ -1,0 +1,22 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    
+    font-size: 30px;
+    color: #33495D;
+}
+table{
+    background-color: #33495D;
+    border-radius: 10px;
+    color: rgb(194, 194, 194);
+}
+th{
+    color: #DCDD54;
+    text-align: left;
+    padding: 15px 40px;
+}
+td{
+    padding: 15px 40px;
+    font-size: 15px;
+}

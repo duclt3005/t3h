@@ -1,0 +1,46 @@
+body {
+  background-color: #bfbfbf;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.menu {
+  display: flex;
+  background-color: #ff7f50;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.left-menu {
+  width: 80%;
+  display: flex;
+}
+
+.left-menu-item {
+  padding: 15px 25px;
+}
+
+.left-menu-item:hover,.right-menu:hover {
+  background-color: rgb(27, 27, 27);
+  cursor: pointer;
+}
+
+.left-menu-item i {
+  font-size: 16px;
+  color: white;
+}
+
+.left-menu-item:nth-child(1) {
+  background-color: rgb(27, 27, 27);
+}
+
+.right-menu {
+  padding: 15px 25px;
+}

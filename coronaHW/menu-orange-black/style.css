@@ -1,0 +1,31 @@
+body{
+    background-color: #BFBFBF;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+.menu{
+    display: flex;
+    background-color: #FF7F50;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.left-menu{
+    width: 80%;
+    display: flex;
+}
+.left-menu-item{
+    padding: 15px 25px;
+    
+}
+.left-menu-item:nth-child(1){
+    background-color: rgb(27, 27, 27);
+}
+.right-menu{
+    padding: 15px 25px;
+}

@@ -1,0 +1,19 @@
+html{
+    background-color: #D8AA96;
+}
+.row{
+    height: 600px;
+    width: 900px;
+    display: flex;
+    margin: 60px auto;
+}
+.col-5{
+    width: calc(5/12 * 100%);
+    height: 100%;
+    background-color:#807182;
+}
+.col-7{
+    width: calc(7/12 * 100%);
+    height: 100%;
+    background-color:#FAC7C2;
+}

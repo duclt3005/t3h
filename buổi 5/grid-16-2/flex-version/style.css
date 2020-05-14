@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #cccccc;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+div[class^="col-"] {
+  background-color: #333333;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 10px;
+  color: white;
+  border-right: 6px solid #cccccc;
+  box-sizing: border-box;
+}
+
+.row div[class^="col-"]:last-child {
+  border-right: none;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-1 {
+  width: calc(100% / 16);
+}
+
+.col-2 {
+  width: calc(100% / 16 * 2);
+}
+
+.col-3 {
+  width: calc(100% / 16 * 3);
+}
+
+.col-4 {
+  width: calc(100% / 16 * 4);
+}
+
+.col-5 {
+  width: calc(100% / 16 * 5);
+}
+
+.col-6 {
+  width: calc(100% / 16 * 6);
+}
+
+.col-7 {
+  width: calc(100% / 16 * 7);
+}
+
+.col-8 {
+  width: calc(100% / 16 * 8);
+}
+
+.col-9 {
+  width: calc(100% / 16 * 9);
+}
+
+.col-10 {
+  width: calc(100% / 16 * 10);
+}
+
+.col-11 {
+  width: calc(100% / 16 *11);
+}
+
+.col-12 {
+  width: calc(100% / 16 * 12);
+}
+
+.col-13 {
+  width: calc(100% / 16 * 13);
+}
+
+.col-14 {
+  width: calc(100% / 16 * 14);
+}
+
+.col-15 {
+  width: calc(100% / 16 * 15);
+}
+
+.col-16 {
+  width: calc(100%);
+}
+
+.col-grid-3-1 {
+  width: calc(100% / 3);
+}
+
+.col-grid-3-2 {
+  width: calc(100% / 3 * 2);
+}
+
+.col-grid-4-1 {
+  width: calc(100% / 4);
+}
+
+.col-grid-4-2 {
+  width: calc(100% / 4 *2);
+}
+
+.col-grid-4-3 {
+  width: calc(100% / 4 *3);
+}
+
+.col-grid-5-1 {
+  width: calc(100% / 5);
+}
+
+.col-grid-5-2 {
+  width: calc(100% / 5 * 2);
+}
+
+.col-grid-5-3 {
+  width: calc(100% / 5 * 3);
+}
+
+.col-grid-5-4 {
+  width: calc(100% / 5 * 4);
+}

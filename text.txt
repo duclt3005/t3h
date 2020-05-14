@@ -1,0 +1,12 @@
+- Từ ES5 trở xuống có thể khai báo k cần từ khoá var
+- Từ ES6 , thứ tự : const -> let -> var
+- 2 trạng thái Falsy/ Truthy ( được xem là sai/đúng )
+	+ falsy : 0, ''(empty string), null, undefined
+	+ truthy: rest
+- 1&&9 == 9 
+  1&&0 == 0 : 0-false -> result is false
+  trả về fasle đầu tiên, trả về true cuối cùng
+- 7||6 = 7 
+  7||0 = 7
+  0||false||7= 7
+  trả về true đầu tiên, trả về false cuối cùng 
