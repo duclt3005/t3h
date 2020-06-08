@@ -1,0 +1,14 @@
+1. BOM
+    - params: viết giống đường dẫn
+    - query: nằm sau dấu ?: ?key=value, query nối nhau bởi dấu &
+    - protocal    ||  domain/ hostname  ||  path   ||  params   ||  query
+      http/https: ||  facebook.com      ||
+    - 127.0.0.1 (localhost): IP address, loop back chỉ truy cập dc 1 máy
+    - http: giao thức bt, dễ bị ăn cắp thông tin
+      https: http security
+2. JS
+    - arrow function: const name= (a,b)=>{
+        return a+b;
+    }
+    - tham chiếu: lưu địa chỉ
+    - tham trị : lưu giá trị

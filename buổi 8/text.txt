@@ -1,0 +1,14 @@
+1. Dom
+  + document.getElementsByTagName("a");
+    document.getElementsByClassName("items");
+    document.getElementById("id");
+    document.querySelector("#id/ .class/ #id:nth-child(1)");
+    document.querySelectorAll("#id/ .class");
+  + h1 = document.getElementById("id");
+    h1.style.color='red';
+    a[target] - div[class^="col-"] - a[target="_blank"];
+  + article = document.querySelector(".article");
+    article.querySelector(".title");     tương tự document. ( nhưng document rộng hơn, k biết chọn query nào)
+
+b1: link, tên, ảnh
+b2: giáo dục: tên, href

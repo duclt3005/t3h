@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buổi 8</title>
+    <style>
+        .title{
+            color: red;
+        }
+        a[target]{
+            background-color: aqua;
+        }
+        a[target="_blank"]{
+            background-color:brown;
+        }
+         a:not(:nth-child(4)){
+            color: gray;
+        }
+        a:nth-child(3){
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">Heading 1</h1>
+    <h1 onclick="clickColor()" class="title">Heading 2</h1>
+    <a href="https://google.com">Google</a>
+    <a href="https://facebook.com" target="_self">Facebook</a>
+    <a target="_blank" href="https://youtube.com">Youtube </a>
+    <div class="article">
+        <h1 class="title">Tiêu Đề trong article</h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

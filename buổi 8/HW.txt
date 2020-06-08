@@ -1,0 +1,27 @@
+1. data = document.querySelector(".listing-layout");
+child= data.children;
+var arr= new Array(10);
+for(let i=0; i<child.length; i++){
+	arr[i] = new Array(10);
+}
+for(let i=0; i<child.length; i++){
+		arr[i][0] = child[i].querySelector("img").src;
+		arr[i][1] = child[i].querySelector("a").href;
+		arr[i][2] = child[i].querySelector(".article-title").innerText;
+
+}
+arr
+
+2.
+data2 = document.querySelector(".glide__slides");
+child =data2.children;
+var arr= new Array(10);
+for(let i=0; i<child.length; i++){
+	arr[i] = new Array(10);
+}
+for(let i=0; i<child.length; i++){
+		arr[i][0] = child[i].querySelector("a").href;
+		arr[i][1] = child[i].querySelector(".article-title").innerText;
+
+}
+arr

@@ -1,0 +1,9 @@
+.cart{
+    background-color: aquamarine;
+    width: 50%;
+    margin:40px auto;
+}
+.cart-item{
+    border-bottom: 2px solid gray;
+    padding: 10px ;
+}

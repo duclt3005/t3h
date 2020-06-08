@@ -1,0 +1,4 @@
+Reponsive
+- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+- @media: xác định kích thước màn hình tương ứng
+    @media screen and (max-width: 600px) and (min-width: 500px)

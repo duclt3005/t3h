@@ -10,12 +10,24 @@
 </head>
 
 <body>
+    <div class="vertical-menu">
+        <i class="fas fa-times" ></i>
+        <div class="menu-link">
+            <a href="#">Home</a>
+            <hr>
+            <a href="#">Generic</a>
+            <hr>
+            <a href="#">Elements</a>
+            <hr>
+        </div>
+    </div>
     <div class="header">
         <div class="container">
             <div class="nav">
                 <div class="logo">Theory</div>
                 <div class="menu">
-                    <ul>
+                    <div class="display-none" onclick="clickMenu()"><i class="fas fa-bars"></i></div>
+                    <ul class="menu-hidden">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Generic</a></li>
                         <li><a href="#">Elements</a></li>
@@ -33,19 +45,22 @@
             <div class="wrapper-item">
                 <p class="text-name">Magna tempus sed amet
                     aliquam veroeros</p>
-                <p class="text-title">Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectusarcu.</p>
+                <p class="text-title">Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper
+                    laoreet, lectusarcu.</p>
                 <button class="btn-more">More</button>
             </div>
             <div class="wrapper-item">
                 <p class="text-name">Interdum lorem pulvinar
                     adipiscing vitae</p>
-                <p class="text-title">Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectusarcu.</p>
+                <p class="text-title">Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper
+                    laoreet, lectusarcu.</p>
                 <button class="btn-more">More</button>
             </div>
             <div class="wrapper-item">
                 <p class="text-name">Libero purus magna sapien
                     sed ullamcorper</p>
-                <p class="text-title">Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectusarcu.</p>
+                <p class="text-title">Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper
+                    laoreet, lectusarcu.</p>
                 <button class="btn-more">More</button>
             </div>
         </div>
@@ -90,13 +105,17 @@
                 <div class="nunc-infor-item">
                     <img src="images/pic01.jpg" alt="">
                     <p class="text-name">Praesent placerat magna</p>
-                    <p class="text-title">Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor lorem ipsum.</p>
+                    <p class="text-title">Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu
+                        vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan
+                        porttitor lorem ipsum.</p>
                     <button class="btn-more">More</button>
                 </div>
                 <div class="nunc-infor-item">
                     <img src="images/pic02.jpg" alt="">
                     <p class="text-name">Fusce pellentesque tempus</p>
-                    <p class="text-title">Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna non comodo sodales tempus.</p>
+                    <p class="text-title">Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel,
+                        euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna non comodo
+                        sodales tempus.</p>
                     <button class="btn-more">More</button>
                 </div>
             </div>
@@ -117,5 +136,15 @@
         </div>
     </div>
 </body>
-
+<script>
+    var btn = document.querySelector(".display-none");
+    var menu = document.querySelector(".vertical-menu");
+    function clickMenu(){
+        menu.style.display='block';
+    }
+    var exit = document.querySelector(".fa-times");
+    exit.onclick = function (){
+        menu.style.display='none';
+    }
+</script>
 </html>

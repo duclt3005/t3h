@@ -1,0 +1,6 @@
+1. Position
+- Fixed: cố định theo screen, screnn làm cha
+- Cặp: relative-absolute
+- Sticky= relative+fixed
+2. Boostrap
+- k đc ghi đè class của boostrap, tạo class mới 
